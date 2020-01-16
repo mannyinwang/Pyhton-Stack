@@ -1,0 +1,13 @@
+source py3Env/Scripts/activate
+pip install django==1.11.9
+pip list
+deactivate
+pip3 list // The list is different because the packages installed in the python environment is different from the one installed in the windows environment
+source py3Env/Scripts/activate
+pip install django==1.11.9 // requirement already satisted is the message that is shown
+pip freeze // pip list is more organized
+cd ~/desktop 
+pip freeze > requirements.txt // lists the contents in the directory and inside the file is the list of installed packages and their version number in the python environment
+pip uninstall django
+pip show django // Brings up error that package not found
+pip search flask

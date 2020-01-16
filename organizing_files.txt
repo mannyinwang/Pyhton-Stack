@@ -1,0 +1,5 @@
+// Navigated to my Coding Dojo directory with command prompt and created a python directory.
+mkdir python
+// Navigated into the python directory and created the sub directories as requested in the first exercise.
+cd python
+mkdir python_stack my_environments _python fundamentals OOP flask flask_fundamentals flask_mysql flask_orm flask_ajax   
